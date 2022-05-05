@@ -1,0 +1,34 @@
+name: worth
+description: How much a property worth?
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  firebase_core: ^1.14.1
+  firebase_analytics: ^9.1.5
+  firebase_auth: ^3.3.14
+  flutterfire_ui: ^0.4.0+2
+  url_launcher: ^6.1.0
+  dropdown_search: ^3.0.1
+  fluttertoast: ^8.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/
+    - images/1.5x/
+    - images/2.0x/
+    - images/3.0x/
